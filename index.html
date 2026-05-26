@@ -3,106 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>私のポートフォリオ</title>
-    <style>
-        /* 簡単なデザイン（CSS） */
-        body {
-            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f7f6;
-            color: #333;
-        }
-        header {
-            background-color: #2c3e50;
-            color: #fff;
-            text-align: center;
-            padding: 2rem 0;
-        }
-        main {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-        section {
-            background-color: #fff;
-            margin-bottom: 2rem;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-        h2 {
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 0.5rem;
-            color: #2c3e50;
-        }
-        ul {
-            padding-left: 1.5rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            font-size: 0.9rem;
-            color: #777;
-        }
-    </style>
+    <title>Atsushi Yamashita - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>私のポートフォリオ</h1>
+        <h1>Atsushi Yamashita</h1>
         <p>Portfolio Website</p>
     </header>
 
     <main>
-        <!-- 1. プロフィール -->
         <section id="profile">
             <h2>1. プロフィール</h2>
-            <p><strong>名前：</strong> 山田 太郎 (Taro Yamada)</p>
+            <p><strong>名前：</strong> 山下 敦史 (Atsushi Yamashita)</p>
             <p><strong>自己紹介：</strong><br>
-            東京都在住のエンジニアです。〇〇大学を卒業後、現在は〇〇という分野に興味を持ち、日々学習と開発を行っています。新しい技術に触れるのが好きです。</p>
+            大阪大学 情報科学部（旧 村田研究室）のB4です。大学院へ進学予定で、将来はハイレベルなSaaS開発や技術選定に携わるテックリード・ディレクターを目指しています。</p>
         </section>
 
-        <!-- 2. キャリア -->
         <section id="career">
-            <h2>2. キャリア</h2>
+            <h2>2. キャリア・目標</h2>
             <ul>
-                <li><strong>2020年4月 - 現在：</strong> 株式会社〇〇〇 入社<br>
-                Webアプリケーションのバックエンド開発に従事。</li>
-                <li><strong>2016年4月 - 2020年3月：</strong> 〇〇大学 〇〇学部 〇〇学科 卒業</li>
+                <li><strong>2026年4月以降：</strong> 大学院へ進学</li>
+                <li><strong>今後の目標：</strong> GAFAM、IBM、NRI、SonyなどのグローバルIT企業や国内大手IT企業でのエンジニア・リサーチャーポジションを見据え、技術研鑽を積んでいます。</li>
             </ul>
         </section>
 
-        <!-- 3. 研究 -->
         <section id="research">
             <h2>3. 研究</h2>
-            <p><strong>テーマ：</strong> 「〇〇における△△の効率化についての研究」</p>
+            <p><strong>テーマ：</strong> 「分散AIデータセンター環境におけるゼロ知識証明を用いた計算サイト検証手法の提案と評価」</p>
             <p><strong>概要：</strong><br>
-            大学時代は〇〇研究室に所属し、大量のデータを効率的に処理するためのアルゴリズムについて研究を行いました。この研究を通じて、データ解析と論理的思考力を養いました。</p>
+            荒川教授および山口教授の指導のもと、匿名通信プロトコル（Tor、Sphinx）の仕様やC言語ソースコードの詳細な解析を行っています。また、エッジAIやゼロ知識証明（ZKP）の分散環境への実装に関心を持っています。</p>
         </section>
 
-        <!-- 4. スキル・実績 -->
         <section id="skills">
             <h2>4. スキル・実績</h2>
             <ul>
-                <li><strong>プログラミング言語：</strong> HTML, CSS, JavaScript, Python</li>
-                <li><strong>ツール・フレームワーク：</strong> Git, GitHub, React</li>
-                <li><strong>資格：</strong> 基本情報技術者試験 (2019年取得)、TOEIC 800点</li>
-                <li><strong>実績：</strong> 〇〇ハッカソンにて優秀賞を受賞 (2021年)</li>
+                <li><strong>プログラミング言語：</strong> Python, C</li>
+                <li><strong>ツール・インフラ：</strong> FastAPI, Docker, AWS (ECS/Fargate), LaTeX</li>
+                <li><strong>専門関心領域：</strong> サイバーセキュリティ、匿名通信プロトコル、ゼロ知識証明 (ZKP)</li>
             </ul>
         </section>
 
-        <!-- 5. 私生活・趣味 -->
         <section id="hobbies">
             <h2>5. 私生活・趣味</h2>
-            <p>休日はカメラを持って街歩きをしたり、風景の写真を撮るのが趣味です。また、最近はスパイスカレー作りにハマっており、週末に色々なレシピを試しています。</p>
-            <p>健康維持のために週に2回はジョギングを欠かさず行っています。</p>
+            <p><strong>トレーニング：</strong> 週5回ペースでボディビル・筋力トレーニングを行うストイックな筋トレ好きです。最近はランニングも始め、今年度はフルマラソンへの参加と登山を計画しています。</p>
+            <p><strong>グルメ・その他：</strong> プロテインの成分比較や、宇治抹茶、二郎系ラーメンの創作メニューを考えるのが好きです。また、好奇心をくすぐる「Satisfying（心地よい）」な映像表現にも興味があります。</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Taro Yamada. All Rights Reserved.</p>
+        <p>&copy; 2026 Atsushi Yamashita. All Rights Reserved.</p>
     </footer>
 
 </body>
