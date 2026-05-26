@@ -46,3 +46,16 @@ footer {
     font-size: 0.9rem;
     color: #777;
 }
+
+/* アニメーションの初期状態（透明 ＆ 少し下にずらす） */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* 画面に入ったときの状態（不透明 ＆ 元の位置に戻る） */
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
